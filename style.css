@@ -1,0 +1,368 @@
+@font-face {
+    font-family: Quantum;
+    src: url(Quantum.otf);
+}
+@font-face {
+    font-family: Bebas-Regular;
+    src: url(Bebas-Regular.otf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    width: 1500px;
+    background: linear-gradient(68.15deg, #182234 16.62%, #0A1F49 85.61%);
+
+}
+
+.nav-bar {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+    
+}
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item{
+    margin: 0 47px;
+
+}
+
+.nav-link{
+    text-decoration: none;
+    font-size: 25px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-family: Bebas-Regular;
+}
+
+
+
+.wszarnik{
+
+    position: absolute;
+    width: 315;
+    height: 63px;
+    left: 166px;
+    top: 0px;
+    font-family: 'Quantum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 63px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(30, 238, 151, 0.63);
+}
+
+.conteudo{
+    position: absolute;
+    width: 1500px;
+    height: 0px;
+    left: 0px;
+    top: 96px;
+    margin: auto;
+    min-width: 320px;
+    max-width: 1500px;
+
+    border: 0.4px solid rgba(30, 238, 151, 0.63);
+}
+.box{
+    
+    box-sizing: border-box;
+    position: absolute;
+    width: 430px;
+    height: 430px;
+    left: 204px;
+    top: 161px;
+
+    border: 2px solid rgba(30, 238, 151, 0.63);
+    border-radius: 30px;
+}
+
+.wellcome{
+    padding: 10px;
+    font-family: 'Bebas-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.sobre{
+   
+    padding: 10px;
+    font-family: 'Consolas';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+color: #FFFFFF;
+}
+.redes{
+    
+
+    position: absolute;
+    width: 349px;
+    height: 101px;
+    left: 245px;
+    top: 372px;
+    
+    font-family: 'Consolas';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    
+    border-top: 1px solid rgba(150, 150, 150, 0.63);
+    padding: 31px;
+
+    color: #FFFFFF;
+}
+
+.eu{
+    width: 316px;
+    height: 316px;
+    left: 880px;
+    top: 207px;
+    border-radius: 90%;
+
+    box-sizing: border-box;
+    position: absolute;
+    width: 430px;
+    height: 430px;
+    left: 1065px;
+    top: 161px;
+}
+
+.imgs{
+    padding: 20px;
+}
+
+.titulo-projetos{
+    position: absolute;
+    width: 879px;
+    height: 39px;
+    left: 353px;
+    top: 745px;
+    padding: 35px;
+    font-family: 'Quantum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    Line-height: 39px;
+
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+    border-top: 1px solid rgba(150, 150, 150, 0.63);
+    text-shadow: 0px 4px 4px rgba(30, 238, 151, 0.63)
+;
+
+
+}
+
+/*PROJETOS ESTRUTURA */
+
+.estrutura-projeto{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 1438px;
+    height: 350px;
+    left: 38px;
+    top: 940px;
+    border: 4px solid rgba(255, 255, 255, 0.63);
+    border-radius: 49px;
+}
+
+.img-projeto{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 56px;
+    top: 20px;
+    border-radius: 15px;
+    border: 1px solid #FFFFFF;
+}
+
+.descricao-projeto{
+    position: absolute;
+    width: 998px;
+    height: 115px;
+    left: 414px;
+    top: 90px;
+
+    font-family: 'Consolas';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #FFFFFF;
+}
+
+.titulo-projeto{
+    position: absolute;
+    width: 282px;
+    height: 50px;
+    left: 414px;
+    top: 37px;
+    color: #FFFFFF;
+    font-family: 'Consolas';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 23px;
+}
+
+
+/* RELOGIO */
+.estrutura-projeto2{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 1438px;
+    height: 350px;
+    left: 38px;
+    top: 1365px;
+    border: 4px solid rgba(255, 255, 255, 0.63);
+    border-radius: 49px;
+}
+
+.img-projeto2{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 56px;
+    top: 20px;
+    border-radius: 15px;
+    border: 1px solid #FFFFFF;
+}
+
+.descricao-projeto2{
+    position: absolute;
+    width: 998px;
+    height: 115px;
+    left: 414px;
+    top: 90px;
+
+    font-family: 'Consolas';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #FFFFFF;
+}
+
+.titulo-projeto2{
+    position: absolute;
+    width: 282px;
+    height: 50px;
+    left: 414px;
+    top: 37px;
+    color: #FFFFFF;
+    font-family: 'Consolas';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 23px;
+}
+
+/* CRONOMETRO */
+
+.estrutura-projeto3{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 1438px;
+    height: 350px;
+    left: 38px;
+    top: 1787PX;
+    border: 4px solid rgba(255, 255, 255, 0.63);
+    border-radius: 49px;
+}
+
+.img-projeto3{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 56px;
+    top: 20px;
+    border-radius: 15px;
+    border: 1px solid #FFFFFF;
+}
+
+.descricao-projeto3{
+    position: absolute;
+    width: 998px;
+    height: 115px;
+    left: 414px;
+    top: 90px;
+
+    font-family: 'Consolas';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #FFFFFF;
+}
+
+.btn-projeto{
+    position: absolute;
+    width: 307px;
+    height: 34px;
+    left: 411px;
+    top: 185px;
+    text-align: center;
+    background: #FFFFFF;
+    border-radius: 16px;
+    font-family: 'Bebas-Regular';
+    font-size: 24px;
+    color: #000000;
+
+}
+
+
+.titulo-projeto3{
+    position: absolute;
+    width: 282px;
+    height: 50px;
+    left: 414px;
+    top: 37px;
+    color: #FFFFFF;
+    font-family: 'Consolas';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 23px;
+}
